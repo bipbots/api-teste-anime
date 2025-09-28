@@ -1,6 +1,6 @@
 import express from "express";
-import animeRoutes from "./routes/anime.js";
-import searchRoutes from "./routes/search.js";
+import animeRoutes from "./anime.js";
+import searchRoutes from "./search.js";
 
 const app = express();
 const PORT = 3000;
